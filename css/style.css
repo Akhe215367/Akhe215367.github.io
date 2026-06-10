@@ -1,0 +1,244 @@
+/*Css Geral do Site*/
+.dark-mode {
+    background-color: #121212;}
+
+button{
+
+    cursor: pointer;
+    color: floralwhite;
+    background-color:rgb(0, 0, 0);
+    height: 44px;
+    width: 44px;
+    margin-top: 7px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid;
+    border-color: rgb(129, 17, 17);
+}
+
+
+*{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    
+    
+}
+
+body{
+    color: rgb(0, 0, 0);
+    background-color: silver;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+    
+}
+
+footer{
+    background-color: goldenrod;
+    text-align: center;
+    margin-top: 30px;
+    
+    
+}
+
+h1,h2,h3{
+    color: rgb(0, 0, 0);
+    background-color: goldenrod;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 8px;
+    
+}
+
+li{
+    color:rgb(0, 0, 0);
+    
+}
+
+footer p{
+    margin: 0;
+    
+    
+}
+
+tr{
+    
+    background-color: floralwhite;}
+    
+    input{
+        
+        width: 200px;
+    }
+    
+
+
+    body,header,footer,nav{
+        /**Transição do background**/
+        transition: background-color 0.5s, color 0.5s;
+    }
+    
+    
+    .aumentarBorda:hover{
+        /**Aumentar botão quando passa o Mouse**/
+        transform: scale(1.1);
+        transition: transform 0.5s;
+    
+    
+    }
+    /*Classes*/
+
+
+
+
+.DeixarBaixo{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.FundoGoldCont{
+
+    background-color: floralwhite;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 2px;
+
+}
+
+
+/*Menu do Site*/
+.Menu{ 
+    position: sticky;
+    top: 0;
+    display: flex;
+    gap: 30px;
+    
+}
+
+.PlanoGold{  
+    background-color: goldenrod;
+    height: 70px;
+    width: 100%;
+    
+}
+
+.LinkMenu{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(0, 0, 0);
+    
+}
+
+
+.BotaoTema{
+    cursor: pointer;
+    background-color:rgb(0, 0, 0);
+    height: 50px;
+    margin-top: 7px;
+    
+}
+
+
+/*Classes Feed Home*/
+
+.Feed{
+    display: flex;
+    gap: 75px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.TituloFoto{
+    background-color: goldenrod;
+    width: fit-content;
+
+}
+
+.Borda{
+border: 10px solid goldenrod;
+
+}
+
+
+
+
+/*Classes da Receita:*/
+.ItemLista{
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    gap: 10px;}
+
+.ReceitaLi{
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.Coluna{
+    columns: 2;
+    
+    
+}
+
+.MargemE{
+
+   margin-left: 123px; 
+   
+
+}
+
+
+.MargemTop{
+    margin-top: 100px;
+}
+
+
+/*Classes Musse*/
+
+.MargemMusse{
+
+    margin-left: 30px;
+
+}
+
+.MudarLi{
+    color: black;
+}
+
+.MusseFooter{
+
+    margin-top: 134px;
+
+}
+
+.mudarOlUl{
+
+    color: goldenrod;
+}
+
+
+/*Classes About*/
+.imagens {
+    display: flex;
+    align-items: flex-start;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/*Classes Contact*/
+
+.MargemLabel{
+    margin-left: 75px;
+}

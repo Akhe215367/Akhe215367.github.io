@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="shortcut icon" href="../assets/FavIcons/Contato.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="../js/script.js"></script>
+
+
+
+
+    <style>
+
+
+
+
+    </style>
+</head>
+<body>
+
+
+    <nav class="Menu PlanoGold">
+
+        <p><strong>Menu Navegação</strong></p>  
+
+            <div>
+
+                <ul class="Menu">
+
+                    <li>
+                        <a class="LinkMenu" href="../index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a class="LinkMenu" href="about.html">Sobre Mim</a>
+                    </li>
+
+                    <li>
+                        <a class="LinkMenu" href="curriculum.html">Currículo</a>
+                    </li>
+
+                    <li>
+                        <a class="LinkMenu" href="receitas.html">Receitas</a>
+                    </li>
+
+                </ul>
+            
+            
+            </div>
+        
+                        <button class="BotaoTema aumentarBorda" onclick="trocarTema()">
+        <img src="../assets/dark_mode.svg" alt="Dark Mode">
+                        </button>
+
+                            <button onclick="aumentarFonte()" class="aumentarBorda">A+</button>
+                            <button onclick="diminuirFonte()" class="aumentarBorda">A-</button>
+        
+    </nav>
+
+    <main>
+        
+        <h2>Entre em Contato:</h2>
+
+
+<div class="MargemLabel">
+    
+    <form action="">
+        
+            <label for="nome"><Div class="FundoGoldCont">Nome:</Div></label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu Nome Completo" required><br><br>
+        
+            <label for="email"><div class="FundoGoldCont">E-mail:</div></label><br>
+            <input type="email" id="email" name="email" placeholder="Digite seu gmail Pessoal ou Comercial" required><br><br>
+        
+            <label for="telefone"><div class="FundoGoldCont">Telefone:</div></label><br>
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite seu Número de Telefone" required><br><br>
+        
+            <label for="assunto"><div class="FundoGoldCont">Assunto:</div></label><br>
+            <input type="text" id="assunto" name="assunto" required><br><br>
+        
+            <label for="mensagem"><div class="FundoGoldCont">Mensagem:</div></label><br>
+            <textarea id="mensagem" name="mensagem" rows="5" cols="30" required></textarea><br><br>
+        
+            <button style="width: 200px; margin-left: 10px;">Submit</button>
+        
+        
+    </form>
+</div></main>
+
+    
+</body>
+</html>
